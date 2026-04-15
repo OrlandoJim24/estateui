@@ -11,13 +11,16 @@
 
     @include sm {
         background-color: red;
+        max-width: ;
     }
 
     @include md {
         background-color: cornflowerblue;
+        max-width: 768px;
     }
 
     @include lg {
         background-color: coral;
+        max-width: 640px;
     }
 }
