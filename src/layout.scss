@@ -12,4 +12,12 @@
     @include sm {
         background-color: red;
     }
+
+    @include md {
+        background-color: cornflowerblue;
+    }
+
+    @include lg {
+        background-color: coral;
+    }
 }
