@@ -9,9 +9,9 @@
     padding-left: 20px;
     padding-right: 20px;
 
-    @include sm {
+    @include lg {
         background-color: red;
-        max-width: ;
+        max-width: 1280px;
     }
 
     @include md {
@@ -19,7 +19,7 @@
         max-width: 768px;
     }
 
-    @include lg {
+    @include sm {
         background-color: coral;
         max-width: 640px;
     }
