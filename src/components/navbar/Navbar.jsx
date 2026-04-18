@@ -14,7 +14,7 @@ function Navbar() {
                 <a href="/">Contact</a>
                 <a href="/">Agents</a>
             </div>
-            <div className="right">Right
+            <div className="right">
             <a href="/">Sign in</a>
                 <a href="/" className="register">Sign up</a>
                 </div>
