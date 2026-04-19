@@ -68,5 +68,14 @@ nav{
                 background-color: #fece51;
             }
 
+            .menuIcon{
+                display: none;
+                
+                
+                @include sm {
+                    display: initial;
+                }
+            }
+
         }
 }
