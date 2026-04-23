@@ -1,6 +1,9 @@
 import "./navbar.scss"
 
 function Navbar() {
+    
+    const [open, setOpen] = useState(false);
+    
     return (
         <nav>
             <div className="left">
@@ -17,8 +20,8 @@ function Navbar() {
             <div className="right">
             <a href="/">Sign in</a>
                 <a href="/" className="register">Sign up</a>
-                <div className="ManuIcon">
-                    <img src="/menu.png" alt="" />
+                <div className="menuIcon">
+                    <img src="/menu.png" alt="" onClick={}/>
                 </div>
                 <div className="menu">
                 <a href="/">Home</a>
