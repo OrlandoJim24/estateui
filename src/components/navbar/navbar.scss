@@ -95,6 +95,7 @@ nav{
                 color: white;
                 height: 100vh;
                 width: 50%;
+                transition: all 1s ease;
 
                 &.active {
                     right: 0;
