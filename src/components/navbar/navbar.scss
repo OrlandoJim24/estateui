@@ -94,6 +94,10 @@ nav{
                 color: white;
                 height: 100vh;
                 width: 50%;
+
+                &.active {
+                    right: 0;
+                }
             }
 
         }
