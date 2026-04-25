@@ -3,7 +3,8 @@ import "./homePage.scss";
 function HomePage() {
   return (
     <div className="homePage">
-      HomePage
+      <div className="textContainer">text</div>
+      <div className="imgContainer">img</div>
     </div>
   );
 }
