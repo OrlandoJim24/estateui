@@ -11,6 +11,17 @@
         flex-direction: column;
         justify-content: center;
         gap: 50px;
+        height: 100%;
+
+
+        .title{
+            font-size: 64px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+        }
     }
     }
 
