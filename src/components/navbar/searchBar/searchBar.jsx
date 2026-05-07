@@ -1,5 +1,7 @@
 import './searchBar.scss'
 
+const types = ['buy', 'rent']
+
 function SearchBar(){
     const [query, setQuery] = useState({
         type: 'buy',
@@ -12,8 +14,11 @@ function SearchBar(){
   return (
     <div className='searchBar'>
         <div className="type">
-            <button onClick={}>Buy</button>
-            <button>Rent</button>
+            {types.map((type) => (
+                <button onClick={() =>switchType(type)}>{type}</button>
+            ))}
+            <button onClick={() =>switchType('buy')}>Buy</button>
+            <button onClick={() =>switchType('rent')}>Rent</button>
         </div>
         <form >
             <input type="text" name= "location" placeholder="City Location" />
